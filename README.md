@@ -11,9 +11,8 @@ This example uses **google forms** as the questionnaire tool of choice. Look up 
 
 1. Create your form as usual to your liking
 
-2. Create a new section at the end of your form, populate it with one single, short text answer question - we'll call it ID. 
-   I also added in a response validation to ensure.
-   Note: Do not allow users to skip this section, Forms will not record the ID.
+2. Create a new short text question at the beginning or end - we'll call it ID. You could also put this in a seperate section
+   Note: Do not allow users to skip this section if you create one, forms will not record the ID.
 
 3. Go to the top and click the three dots icon, then click 'Get pre-filled link'
 
