@@ -1,4 +1,4 @@
-# UnityAutoQ
+# Unity Auto Questionnaire
 This will allow Unity games to open a questionnaire with ID automatically.
 
 This example uses **google forms** as the questionnaire tool of choice. Look up URL parameters for your own tools to check implimentation, although this is paid for with many tools I found.
@@ -11,14 +11,16 @@ This example uses **google forms** as the questionnaire tool of choice. Look up 
 
 1. Create your form as usual to your liking
 
-2. Create a new section at the end of your form, populate it with one single, short text answer question - we'll call it ID
+2. Create a new section at the end of your form, populate it with one single, short text answer question - we'll call it ID. 
+   I also added in a response validation to ensure.
+   Note: Do not allow users to skip this section, Forms will not record the ID.
 
 3. Go to the top and click the three dots icon, then click 'Get pre-filled link'
 
 4. Find the ID question and put anything in the text box. Click 'Get Link' then copy it. you will get this:
    forms/d/e/1FAIpQLSfutmvWX2NzKnRHnjO4H8R4_Zat_tISDhEK5cZL3BkkNi-bZg/viewform?usp=pp_url&entry.315461126=THIS
    
-5. This is your URL. Delete everything after the equals sing, this is where you put what you'll pre-populate the answer with
+5. This is your URL. Delete everything after the equals sign, this is where you put what you'll pre-populate the answer with
 
 
 
@@ -44,4 +46,4 @@ You will end up with a pre-populated link depending on their ID. Here is what th
 https://docs.google.com/forms/d/e/1FAIpQLSfutmvWX2NzKnRHnjO4H8R4_Zat_tISDhEK5cZL3BkkNi-bZg/viewform
 
 **prefilled question**
-https://docs.google.com/forms/d/e/1FAIpQLSfutmvWX2NzKnRHnjO4H8R4_Zat_tISDhEK5cZL3BkkNi-bZg/viewform?entry.315461126=TEST
+https://docs.google.com/forms/d/e/1FAIpQLSfutmvWX2NzKnRHnjO4H8R4_Zat_tISDhEK5cZL3BkkNi-bZg/viewform?entry.315461126=1234567891012345678
