@@ -1,7 +1,7 @@
 using UnityEngine; 
 using System.Collections;
 
-public class OpenURL : MonoBehaviour //you could probably use a website with shorter URLs
+public class OpenURL : MonoBehaviour 
 {
 
 
