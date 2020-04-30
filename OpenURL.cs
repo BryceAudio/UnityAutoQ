@@ -1,15 +1,14 @@
-﻿using UnityEngine;
+using UnityEngine; 
 using System.Collections;
 
-public class OpenURL : MonoBehaviour
+public class OpenURL : MonoBehaviour //you could probably use a website with shorter URLs
 {
 
 
-    void Start() //this wouldn't be in Start - stick this in your 'end game' script.
-                   // e.g. if {playerDone == true...
-
+    void Start() 
 
     {
-        Application.OpenURL("https://s.chkmkt.com/?e=195781&h=EDD1DF22921998D&l=en&q1=" + SystemInfo.deviceUniqueIdentifier);
+        Application.OpenURL("https://docs.google.com/forms/d/e/1FAIpQLSfutmvWX2NzKnRHnjO4H8R4_Zat_tISDhEK5cZL3BkkNi-bZg/viewform?usp=sf_linkusp=pp_url&entry.315461126=" + SystemInfo.deviceUniqueIdentifier);
     }
     }
+
