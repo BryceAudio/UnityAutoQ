@@ -5,9 +5,9 @@ This example uses **google forms** as the questionnaire tool of choice. Look up 
 
 
 
-##To do this:
+## To do this:
 
-#Questionnaire Setup [Google Forms]:
+# Questionnaire Setup [Google Forms]:
 
 1. Create your form as usual to your liking
 
@@ -23,7 +23,7 @@ This example uses **google forms** as the questionnaire tool of choice. Look up 
 
 
 
-#Unity Setup:
+# Unity Setup:
 
 
 1. The Unity code should be placed in your 'end game state' e.g. 
