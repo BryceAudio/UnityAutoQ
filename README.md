@@ -14,10 +14,10 @@ This example uses **google forms** as the questionnaire tool of choice. Look up 
 2. Create a new short text question at the beginning or end - we'll call it ID. You could also put this in a seperate section
    Note: Do not allow users to skip this section if you create one, forms will not record the ID.
 
-3. Go to the top and click the three dots icon, then click 'Get pre-filled link'
+3. Go to the top and click the three dots icon, then click 'Get pre-filled link'.
 
-4. Find the ID question and put anything in the text box. Click 'Get Link' then copy it. you will get this:
-   forms/d/e/1FAIpQLSfutmvWX2NzKnRHnjO4H8R4_Zat_tISDhEK5cZL3BkkNi-bZg/viewform?usp=pp_url&entry.315461126=THIS
+4. Find the ID question and put anything in the text box, I put 'THIS'. Click 'Get Link' then copy it. you will get this:
+   forms/d/e/1FAIpQLSfutmvWX2NzKnRHnjO4H8R4_Zat_tISDhEK5cZL3BkkNi-bZg/viewform?usp=pp_url&entry.315461126=**THIS**
    
 5. This is your URL. Delete everything after the equals sign, this is where you put what you'll pre-populate the answer with
 
@@ -28,10 +28,10 @@ This example uses **google forms** as the questionnaire tool of choice. Look up 
 
 
 1. The Unity code should be placed in your 'end game state' e.g. 
-      if {gameFinished == true
+      if (gameFinished == true){
            //do it here
             }
-   All that's needed is the single line
+   All that's needed is the single line to open the URL.
          
 2. If you're collecting any other data then ensure that the deviceUniqueIdentifier is uploaded to the server(see https://github.com/francescosoave/unity-server-upload to set this up) - this will mean you can link plays with answers.
 
