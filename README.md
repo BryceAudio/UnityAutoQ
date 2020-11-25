@@ -19,7 +19,7 @@ This example uses **google forms** as the questionnaire tool of choice. Look up 
 4. Find the ID question and put anything in the text box, I put 'THIS'. Click 'Get Link' then copy it. you will get this:
    forms/d/e/1FAIpQLSfutmvWX2NzKnRHnjO4H8R4_Zat_tISDhEK5cZL3BkkNi-bZg/viewform?usp=pp_url&entry.315461126=**THIS**
    
-5. This is your URL. Delete everything after the equals sign, this is where you put what you'll pre-populate the answer with
+5. This is your URL. Delete everything after the final equals sign, this is where you put what you'll pre-populate the answer with
 
 
 
